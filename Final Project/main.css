@@ -1,0 +1,225 @@
+@charset "utf-8";
+body {
+    background-image: url(images/Symbol%20Wallpaper_ExSmall.jpg);
+    background-repeat: repeat;
+    background-position: right top;
+    font-family: "Lucida Calligraphy";
+}
+.headline {
+    font-size: 40px;
+    line-height: 0.95em;
+    margin-bottom: 10px;
+    font-family: "Lucida Calligraphy";
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    word-spacing: 0.5em;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,142,0,1.00) 0%,rgba(255,70,0,1.00) 98.96%,rgba(255,1,0,1.00) 98.96%,rgba(255,79,0,1.00) 100%);
+    color: #813300;
+}
+.col-xl-1 center span {
+
+}
+button {
+
+}
+
+.col-xl-7 center .navbar.navbar-expand-lg.navbar-light.bg-light {
+    margin-bottom: 0px;
+}
+.row .col-xl-4 .form-control.mr-sm-2 {
+    display: compact;
+    max-width: 200px;
+    left: auto;
+    float: left;
+    margin-top: 30px;
+    font-size: 10px;
+}
+search   {
+    float: left;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    margin-top: 0px;
+
+}
+.navbar   {
+    margin-top: 20px;
+    background-color: rgba(255,79,0,1.00);
+    font-family: "Lucida Calligraphy";
+    font-size: 20px;
+    color: rgba(0,0,0,1.00);
+}
+
+.input-group {
+
+
+}
+.col-xl-4 .example button {
+    font-size: medium;
+}
+.container .container.blog {
+    background-color: rgba(255,79,0,1.00);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 3px inset rgba(81,32,0,1.00);
+    font-size: 20px;
+    text-align: center;
+}
+.row .col-xl-3 p {
+}
+
+.row .col-xl-6 .img-fluid.rounded {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row .col-xl-6 .img-fluid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row .col-xl-6 .img-fluid {
+    margin-top: 10px;
+}
+body iframe {
+}
+.container #flip .container-fluid {
+}
+.container #flip {
+    font-family: "Lucida Calligraphy";
+}
+.container center h2 {
+}
+.searchbar button .fa.fa-search {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px){
+.headline {
+    font-size: 60px;
+    line-height: 0.85em;
+    margin-bottom: 30px;
+}
+.container .container.blog {
+    background-color: rgba(255,79,0,0.75);
+    font-family: "Lucida Calligraphy";
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 3px inset rgba(81,32,0,1.00);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+}
+
+@media (min-width:1024px){
+.headline {
+    font-size: 85px;
+    line-height: 0.9em;
+    margin-bottom: 20px;
+}
+.container .container.blog {
+    background-color: rgba(255,79,0,0.75);
+    font-family: "Lucida Calligraphy";
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 3px inset rgba(81,32,0,1.00);
+    font-size: 25px;
+    text-align: center;
+}
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.searchbar input[type=text] {
+    padding: 10px;
+	font-family: "Lucida Calligraphy";
+    font-size: 17px;
+    border: 1px solid rgba(129,51,0,1.00);
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: 20px;
+}
+
+form.searchbar button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background:rgba(255,79,0,1);
+    color: rgba(81,32,0,1.00);
+    font-size: 17px;
+    border: 1px solid rgba(129,51,0,1.00);
+    border-left: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form.searchbar button:hover {
+  background: #0b7dda;
+}
+
+form.searchbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  color:rgba(129,51,0,1.00);
+  background-color: rgba(255,79,0,1.00);
+  border: solid 1px black;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+	
+	.container{
+		width:1018px;
+		margin:0 auto;
+	}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  background-color: rgba(255,255,255,.50);
+}
+
+.flex-container > div {
+  background-color: rgba(0,128,255,0.50);
+  color: rgba(255,255,255,.75);
+  margin: 10px;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+}
+
+.container {
+    font-family: "Lucida Calligraphy";
+}
